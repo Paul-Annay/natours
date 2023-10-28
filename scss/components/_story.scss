@@ -32,10 +32,8 @@
     }
 
     &__caption {
-        position: absolute;
         opacity: 0;
-        top: 50%;
-        left: 50%;
+        @include centerHorizontalVertical;
         transform: translate(-50%, 20%);
         color: $color-white;
         font-size: 1.7rem;

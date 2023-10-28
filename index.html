@@ -15,6 +15,31 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About
+                        Natours</a>
+                </li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your
+                        Benefits</a>
+                </li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular
+                        Tours</a>
+                </li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a>
+                </li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book
+                        Now</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__logo-box">
             <img src="./img/logo-white.png" alt="a white logo of the natours web site" class="header__logo">
@@ -252,7 +277,79 @@
                 <a href="#" class="btn-text">Read all stories &rarr;</a>
             </div>
         </section>
+
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Start booking now
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" id="name" class="form__input" placeholder="Full name" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="email" id="email" class="form__input" placeholder="Email address" required>
+                                <label for="email" class="form__label">Email address</label>
+                            </div>
+
+                            <div class="form__group">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="small" name="size">
+                                    <label class="form__radio-label" for="small">
+                                        <span class="form__radio-button"></span>
+                                        Small tour group</label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="large" name="size">
+                                    <label class="form__radio-label" for="large">
+                                        <span class="form__radio-button"></span>
+                                        Large tour group</label>
+                                </div>
+                            </div>
+
+                            <div class="form__group">
+                                <button class="btn btn--green">Next step &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img src="/img/logo-green-2x.png" alt="Full Logo" class="footer__logo">
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Carreers</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">Annay Paul</a> for his practice. All rights reserved by <a
+                        href="#" class="footer__link">Annay Paul</a>. Copyright &copy; by Annay Paul. You are 100%
+                    allowed to use this webpage for both personal and commercial use, bot NOT to claim it as your own
+                    design. A credit to the original author, Annay Paul is highly appreciated.
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- <section>
